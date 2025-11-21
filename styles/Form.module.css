@@ -1,0 +1,94 @@
+/* styles/Form.module.css */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: "Arial", sans-serif;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.question {
+  margin-bottom: 20px;
+}
+
+.label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.required {
+  color: red;
+}
+
+.inputArea input,
+.inputArea textarea,
+.inputArea select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+.option {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.button {
+  background-color: #0078d7;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.button:hover:enabled {
+  background-color: #005a9e;
+}
+
+/* 既存のスタイルに追加 */
+
+.subtitle {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.confirm, .thankyou {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+.answerList {
+  list-style: none;
+  padding: 0;
+}
+
+.answerItem {
+  margin-bottom: 10px;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.secondaryButton {
+  background-color: #666;
+}
+
+.secondaryButton:hover {
+  background-color: #444;
+}
